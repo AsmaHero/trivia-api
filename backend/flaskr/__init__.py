@@ -185,7 +185,7 @@ def create_app(test_config=None):
             })
 
 
-        # if no search term, create questions from list of response (nothing to do)
+        #create questions from list of fields
         else:
             # load data from body requests fields of new question
             new_question = body.get('question')
